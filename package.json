@@ -7,7 +7,8 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "docs:generate-api": "node scripts/generate-api-docs.js"
+    "docs:generate-api": "node scripts/generate-api-docs.js",
+   "docs:build":"vitepress build"
   },
   "keywords": [
     "waf",
