@@ -46,6 +46,7 @@ export default defineConfig({
   title: 'WAF Documentation',
   description: 'Web Automation Framework Documentation',
   ignoreDeadLinks: true,
+  base: '/waf-docs/',
 
   // Theme related configurations.
   themeConfig: {
