@@ -1,0 +1,24 @@
+{
+  "name": "waf-docs",
+  "version": "1.0.0",
+  "description": "Documentation for Web Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "docs:generate-api": "node scripts/generate-api-docs.js"
+  },
+  "keywords": [
+    "waf",
+    "documentation",
+    "vitepress"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^9.1.1",
+    "vitepress": "next",
+    "vue": "^3.4.27"
+  }
+}
